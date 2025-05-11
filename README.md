@@ -13,6 +13,8 @@ Just drag and drop a video to *gemOCR.py* (or a bat/sh file calling it)
 - ~~Convert and merge the JSON files to plain text and add a {\an8} tag to the upper dialogues.~~ [Not yet]
 - ~~Crate an .ass subtitle fle based on the content and the timings in the filenames~~. [Not yet]
 
+Scanning for subs and manually deleting unwanted screenshots take a couple of minutes. The actual OCR process takes only 12 seconds per batch, which is usually less than 1 minute per episode.
+
 ## Requirements
 - Windows 10/11 or Linux
 - Python
