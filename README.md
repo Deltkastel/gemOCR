@@ -2,8 +2,7 @@
 Extracts harcodded subtitles from a video using Gemini.
 
 ## How it works
-##### Once the initial setup is done...
-Just drag and drop a video to *gemOCR.py* (or a bat/sh file calling it)
+After the [initial setup](https://languagetool.org/), just drag and drop a video to *gemOCR.py* (or a bat/sh file calling it)
 <br>or execute `python gemOCR.py "video file"` and it will automatically do the following:
 
 - Scan for subtitles using VideoSubFinder in CLI mode.
@@ -23,6 +22,7 @@ Scanning for subs and manually deleting unwanted screenshots can take a couple o
 ```
 pip install google-genai
 ```
+## Setup
 
 ## TODO
 - Ditch VideoSubFinder for some custom-made OpenCV-based script maybe?
