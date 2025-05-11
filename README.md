@@ -11,7 +11,7 @@ Just drag and drop a video to *gemOCR.py* (or a bat/sh file calling it)
 - Ask you to delete the unwanted screenshots (optional, but highly recommended) and press *Enter* to continue.
 - Convert the .jpeg files into pages of a PDF file and ask Gemini to OCR each of those pages as a JSON {"key":"value"} pair.
 - ~~Convert and merge the JSON files to plain text and add a {\an8} tag to the upper dialogues.~~ [Not yet]
-- ~~Crate an .ass subtitle fle based on the content~~. [Not yet]
+- ~~Crate an .ass subtitle fle based on the content and the timings in the filenames~~. [Not yet]
 
 ## Requirements
 - Windows 10/11 or Linux
