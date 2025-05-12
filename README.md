@@ -19,11 +19,11 @@ Scanning for subs and manually deleting unwanted screenshots can take a couple o
 - Python
 - VideoSubFinder
 - [A Gemini API Key](https://aistudio.google.com/apikey)
+
+## Setup
 ```
 pip install google-genai
 ```
-## Setup
-
 ## TODO
 - Ditch VideoSubFinder for some custom-made OpenCV-based script maybe?
 - Gemma 3 support for local OCR processing
