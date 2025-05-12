@@ -1,5 +1,5 @@
 # gemOCR
-Extracts harcodded subtitles from a video using Gemini. This is the fastest and more accurate subtitle OCR method out there, and doesn't require a dedicated GPU.
+Extracts harcodded subtitles from a video using Gemini. This is the fastest and more accurate subtitle OCR method out there, and doesn't require a dedicated GPU. Note that it requires a Gemini API to use the Gemini 2.5 Flash model, which is free until you reach 500 daily requests (60~ 24min episodes). 
 
 ## How it works
 After the [initial setup](https://languagetool.org/), just drag and drop a video to *gemOCR.py* (or a bat/sh file calling it)
