@@ -1,5 +1,5 @@
 # gemOCR
-Extracts harcodded subtitles from a video using Gemini.
+Extracts harcodded subtitles from a video using Gemini. This is the fastest and more accurate subtitle OCR method out there, and doesn't require a dedicated GPU.
 
 ## How it works
 After the [initial setup](https://languagetool.org/), just drag and drop a video to *gemOCR.py* (or a bat/sh file calling it)
@@ -11,8 +11,6 @@ After the [initial setup](https://languagetool.org/), just drag and drop a video
 - Convert the .jpeg files into pages of a PDF file and ask Gemini to OCR each of those pages as a JSON {"key":"value"} pair. This is done in batches of less than 80 pages per PDF to avoid hallucinations.
 - ~~Convert and merge the JSON files to plain text and add a {\an8} tag to the upper dialogues.~~ [Not yet]
 - ~~Crate an .ass subtitle fle based on the content and the timings in the filenames~~. [Not yet]
-
-Scanning for subs and manually deleting unwanted screenshots can take a couple of minutes, but the actual OCR process takes only 12 seconds per batch, which is usually less than 1 minute per episode. This is by far the fastest and more accurate subtitle OCR method out there, specially if you specify the name of the show in the prompt, but consider using a grammar checker like [LanguageTool](https://languagetool.org/) to detect possible errors. Also run the Aegisub grammar checker to manually add the correct names to the dictionary so you can know when a name was incorrectly OCR'ed.
 
 ## Requirements
 - Windows 10/11 or Linux
